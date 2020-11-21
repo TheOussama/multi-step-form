@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <form id="form1">
+      <h3>creat account</h3>
+      <div class="form-groupe">
+        <input type="text" >
+        <label for="">Email or Username</label>
+
+        <i class="far fa-envelope"></i>
+      </div>
+      <div class="form-groupe">
+        <input  type="password">
+        <label for="">Mot de passe</label>
+        <i  class="fas fa-lock"></i>
+      </div>
+      <div class="form-groupe">
+        <input  type="password">
+        <label for="">confirm password</label>
+
+        <i  class="fas fa-lock"></i>
+      </div>
+
+      <div class="btn-box">
+        <button type="button" id="next1">Next</button>
+      </div>
+    </form>
+    <form id="form2">
+      <h3>Social links</h3>
+      <div class="form-groupe">
+        <input type="text" >
+        <label for="">Medium</label>
+
+        <i class="fab fa-medium"></i>
+      </div>
+      <div class="form-groupe">
+        <input type="text">
+        <label for="">Github</label>
+
+        <i class="fab fa-github"></i>
+      </div>
+      <div class="form-groupe">
+        <input type="text">
+        <label for="">Linkedin</label>
+
+        <i class="fab fa-linkedin"></i>
+      </div>
+
+      <div class="btn-box">
+        <button type="button" id="back1">Back</button>
+        <button type="button" id="next2">Next</button>
+      </div>
+    </form>
+    <form id="form3">
+      <h3>Personnal info</h3>
+      <div class="form-groupe">
+        <input type="text" required>
+        <label for="">First Name</label>
+ 
+        <i class="fas fa-user"></i>
+      </div>
+      <div class="form-groupe">
+        <input type="text" required>
+        <label for="">Last Name</label>
+ 
+        <i class="fas fa-user"></i>
+      </div>
+      <div class="form-groupe">
+        <input type="text"  required>
+        <label for="">Mobil .No</label>
+    
+        <i class="fas fa-phone"></i>
+      </div>
+     
+   
+
+    
+      <div class="btn-box">
+        <button type="button" id="back2">Back</button>
+        <button type="button" id="submit">Submit</button>
+      </div>
+    </form>
+    <div class="step-row">
+      <div id="progress"></div>
+      <div class="step-col"><small>Step 1</small></div>
+      <div class="step-col"><small>Step 2</small></div>
+      <div class="step-col"><small>Step 3</small></div>
+
+    </div>
+  </div>
+  <script src="common.js"></script>
+</body>
+</html>
